@@ -39,7 +39,7 @@ function draw() {
   line(width/2, height/2, width/2 + cos(m) * minutesRadius, height/2 + sin(m) * minutesRadius);
   strokeWeight(11);
   line(width/2, height/2, width/2 + cos(h) * hoursRadius, height/2 + sin(h) * hoursRadius);
-  r1 = random(-1/6 * 2, 1/6);
+  r1 = random(-1/3, 1/6);
   s += r1;
   strokeWeight(2);
   ellipse(width/2, height/2, 12, 12);
